@@ -13,10 +13,10 @@ resource "google_sql_database_instance" "main" {
   settings {
     tier    = "db-f1-micro"
     
-    backup_configuration {
-      enabled = true
-      binary_log_enabled = true
-    }
+   # backup_configuration {
+   #   enabled = true
+   #   binary_log_enabled = true
+   # }
     availability_type = "REGIONAL"
   }
 }
