@@ -1,7 +1,7 @@
 provider "google" {
 
   credentials = var.sa_key
-  project = var.project_id
+  project = "parabolic-base-409505"
 }
  
 variable "sa_key" {
